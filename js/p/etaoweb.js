@@ -1,1 +1,0 @@
-!function(){window.console||(window.console={log:function(){},error:function(){}});var o={},n=function(n){return o[n]?o[n].exports:(console.error('module "'+n+'" is miss'),null)};window.define=function(r,e){if(!r)return void console.error("define 参数不能为空");e||(e=r,r=null);var i={exports:{}};e.apply(window,[n,i,i.exports]),r&&(o[r]=i)}}();
