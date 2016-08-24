@@ -11,7 +11,7 @@
         <meta name="keywords" content="" />
         <link rel="shortcut icon" href="http://lxcdn.aiyingta.com//img/favicon.ico"
         type="image/x-icon" />
-        <link rel="stylesheet" href="http://lxcdn.aiyingta.com//css/p/letvstore.css?v=1470575307973"
+        <link rel="stylesheet" href="http://lxcdn.aiyingta.com//css/p/letvstore.css?v=1472035713882"
         />
     </head>
     
@@ -36,7 +36,11 @@
                 </div>
             </header>
             <div class="g-wrap">
-                <div class="banner"></div>
+                <div class="banner">
+                    <div class='vidoe-dis'>
+                        <div class='vidoe' id='vidoe'></div>
+                    </div>
+                </div>
                 <div class="user-flow"></div>
                 <div class="store-index"></div>
                 <div class="store-classify">
@@ -174,9 +178,19 @@
         </div>
     </body>
     <script src="http://lxcdn.aiyingta.com//js/lib/jquery.1.11.3.min.js" type="text/javascript"></script>
-    <!-- error: point:jspoi is not defined; modname islayout/normal
-    -->
-    <script src="http://lxcdn.aiyingta.com//js/p/letvstore.js?v=1470575307974"
+    <script src="http://lxcdn.aiyingta.com//js/lib/ckplayer/ckplayer.js"
+    type="text/javascript"></script>
+    <script type="text/javascript">
+        var flashvars={
+            f:'http://lxcdn.aiyingta.com//img/tv-animation.mp4',
+            c:0,
+            b:1,
+           // i:"http://lxcdn.aiyingta.com//img/video.jpg?v=1472035713882"
+            };
+        var params={bgcolor:'#FFF',allowFullScreen:true,allowScriptAccess:'always',wmode:'transparent'};
+        CKobject.embedSWF('http://lxcdn.aiyingta.com//js/lib/ckplayer/ckplayer.swf','vidoe','ckplayer_vidoe','787','443',flashvars,params);
+    </script>
+    <script src="http://lxcdn.aiyingta.com//js/p/letvstore.js?v=1472035713882"
     type="text/javascript"></script>
 
 </html>
